@@ -41,30 +41,15 @@
                                     <p>
                                         Dalam rangka pelaksanaan kebijakan Pemerintah yang tertuang
                                         dalam Peraturan Presiden nomor 95 tahun 2018, tentang Sistem
-                                        Pemerintahan Berbasis Elektronik (SPBE), Kantor Kementerian Agama Kab. Pesisir
-                                        Selatan selaku Unit Kementerian Agama melakukan implementasi/penerapan sistem agenda
-                                        digital. Aplikasi yang dikembangkan oleh Tim IT dan Pranata Komputer diberi nama
-                                        “e-Agenda”. Aplikasi ini adalah agenda kegiatan Kemenag yang juga
-                                        diintegrasikan ke dalam website resmi Kementerian Agama Kab. Pessel.
-                                        Penerapan aplikasi e-Agenda ini diharapkan dapat memudahkan
-                                        akses infromasi kegiatan yang akan dilakukan Kementerian Agama Kab. Pesisir Selatan
-                                        baik untuk pihak internal maupun eksternal (masyarakat maupun perangkat
-                                        daerah lain).
+                                        Pemerintahan Berbasis Elektronik (SPBE),SMAN 3 Painan melakukan implementasi/penerapan sistem agenda
+                                        digital.
                                     </p>
 
                                     <p>
                                         Penerapan aplikasi e-Agenda ini diharapkan dapat memudahkan
-                                        akses infromasi kegiatan yang akan dilakukan Kementerian Agama Kab. Pesisir Selatan
+                                        akses infromasi kegiatan yang akan dilakukan SMAN 3 Painan
                                         baik untuk pihak internal maupun eksternal (masyarakat maupun perangkat
                                         daerah lain).
-                                    </p>
-
-                                    <p>
-                                        Buku Tamu Digital merupakan salah satu proses untuk mencatat data pengunjung yang
-                                        telah
-                                        mengunjungi Kantor Kementerian Agama Kab. Pesisir Selatan (KEMENAGPESSEL)
-                                        yang berguna untuk mencatat siapa saja dengan keperluan apa saja sehingga mereka
-                                        datang ke KEMENAGPESSEL.
                                     </p>
                                 </h5>
 

@@ -20,16 +20,16 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersTableSeeder::class);
         $this->call(RolesTableSeeder::class);
 
-        Schema::drop('users');
-        $path = public_path('sql/users_ptsp.sql');
-        $sql = file_get_contents($path);
-        DB::unprepared($sql);
+        // Schema::drop('users');
+        // $path = public_path('sql/users_ptsp.sql');
+        // $sql = file_get_contents($path);
+        // DB::unprepared($sql);
 
 
-        Schema::drop('role_has_permissions');
-        $path = public_path('sql/role_has_permissions_ptsp.sql');
-        $sql = file_get_contents($path);
-        DB::unprepared($sql);
+        // Schema::drop('role_has_permissions');
+        // $path = public_path('sql/role_has_permissions_ptsp.sql');
+        // $sql = file_get_contents($path);
+        // DB::unprepared($sql);
 
         DB::statement('SET FOREIGN_KEY_CHECKS=1');
     }

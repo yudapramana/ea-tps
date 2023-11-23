@@ -20,13 +20,13 @@
 
 
 
-        <div class="container">
+        <div class="container-fluid m-0 p-0">
             <div class="jumbotron jumbotron-fluid new-font">
                 <div class="mx-5">
-                    <h1 class="display-4">SI-APDI KEMENAG</h1>
+                    <h1 class="display-4">E-Agenda</h1>
                     <h2>
                         Sistem Informasi Agenda Pimpinan Digital
-                        <h3>Kementerian Agama Kabupaten Pesisir Selatan</h3>
+                        <h3>SMA Negeri 3 PAINAN</h3>
                     </h2>
                     <p class="lead">
                         <router-link to="tentang" class="btn btn-primary btn-lg btn-sm" role="button">Pelajari Lebih Lanjut</router-link>
@@ -43,11 +43,11 @@
                     <div class="text-center new-font">
                         <h1>{{ timestamp }}</h1>
                         <h2>
-                            Agenda Pimpinan KanKemenag Kabupaten Pesisir Selatan
+                            Agenda Pimpinan Sekolah Menengah Atas 3 Negeri Painan
                         </h2>
                         <hr style="width:20%; margin:0 auto; height:5px;" class="my-3" />
                         <h4>
-                            Agenda Pimpinan Kepala Kantor Kementerian Agama Kab. Pesisir Selatan
+                            Agenda Pimpinan Kepala Sekolah Menengah Atas 3 Negeri Painan
                         </h4>
                     </div>
                 </div>
@@ -72,11 +72,11 @@
                                             {{ director.jabatan }} </p>
                                     </h5>
                                     <p class="m-0 p-0">
-                                        <b>Kantor Kementerian Agama Kabupaten Pesisir Selatan</b>
+                                        <b>SMAN 3 Painan Kabupaten Pesisir Selatan</b>
                                     </p>
 
-                                    <small class="text-muted">Alamat: Jalan Imam Bonjol Nomor 1, IV Jurai, Painan, Sumatera
-                                        Barat, 25651 | Kontak : (0756) 21305 - 21405</small>
+                                    <small class="text-muted">Alamat: Jl.Raya Sago Komplek Islamic Center, Sago, Painan, Sumatera
+                                        Barat, 25651 | Kontak : (0756) 74642115</small>
 
                                     <p class="mt-2 m-0 p-0">
                                         <b>Jumlah Agenda</b>

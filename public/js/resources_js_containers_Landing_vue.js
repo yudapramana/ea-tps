@@ -23,6 +23,10 @@ __webpack_require__.r(__webpack_exports__);
       this.$router.push('/login');
     }
   },
+  created: function created() {
+    document.body.classList.add('hold-transition', 'layout-top-nav');
+    document.body.classList.remove('hold-transition', 'sidebar-mini');
+  },
   mounted: function mounted() {
     document.body.classList.remove('hold-transition', 'sidebar-mini');
     document.body.classList.add('hold-transition', 'layout-top-nav');
@@ -45,7 +49,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */   render: () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
@@ -107,7 +111,7 @@ var _hoisted_23 = [_hoisted_22];
 var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
     "class": "order-1 order-md-3 navbar-nav navbar-no-expand ml-auto"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link\" data-toggle=\"dropdown\" href=\"#\">\n                        <i class=\"nav-icon fas fa-house\"></i>\n                        <span class=\"badge badge-danger navbar-badge\">3</span>\n                    </a>\n                </li>\n\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link\" data-toggle=\"dropdown\" href=\"#\">\n                        <i class=\"fas fa-bell nav-icon \"></i>\n                        <span class=\"badge badge-warning navbar-badge\">15</span>\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" data-widget=\"control-sidebar\" data-slide=\"true\" href=\"#\" role=\"button\">\n                        <i class=\"fas fa-th-large nav-icon \"></i>\n                    </a>\n                </li> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <li class=\"nav-item\">\n                    <a href=\"https://ptsp.kemenagpessel.com\" class=\"nav-link\">Pelayanan Publik</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a href=\"https://ppid.kemenagpessel.com\" class=\"nav-link\">Pelayanan Informasi</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a href=\"https://datuak.kemenagpessel.com\" class=\"nav-link\">Satu Data</a>\n                </li> ")], -1 /* HOISTED */);
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <li class=\"nav-item dropdown\">\r\n                    <a class=\"nav-link\" data-toggle=\"dropdown\" href=\"#\">\r\n                        <i class=\"nav-icon fas fa-house\"></i>\r\n                        <span class=\"badge badge-danger navbar-badge\">3</span>\r\n                    </a>\r\n                </li>\r\n\r\n                <li class=\"nav-item dropdown\">\r\n                    <a class=\"nav-link\" data-toggle=\"dropdown\" href=\"#\">\r\n                        <i class=\"fas fa-bell nav-icon \"></i>\r\n                        <span class=\"badge badge-warning navbar-badge\">15</span>\r\n                    </a>\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    <a class=\"nav-link\" data-widget=\"control-sidebar\" data-slide=\"true\" href=\"#\" role=\"button\">\r\n                        <i class=\"fas fa-th-large nav-icon \"></i>\r\n                    </a>\r\n                </li> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <li class=\"nav-item\">\r\n                    <a href=\"https://ptsp.kemenagpessel.com\" class=\"nav-link\">Pelayanan Publik</a>\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    <a href=\"https://ppid.kemenagpessel.com\" class=\"nav-link\">Pelayanan Informasi</a>\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    <a href=\"https://datuak.kemenagpessel.com\" class=\"nav-link\">Satu Data</a>\r\n                </li> ")], -1 /* HOISTED */);
 });
 var _hoisted_25 = {
   "class": "content-wrapper"
@@ -126,7 +130,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
   var _component_router_view = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-view");
   var _component_vue_progress_bar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vue-progress-bar");
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <li class=\"nav-item\">\n                        <router-link to=\"daftar-tamu\" class=\"nav-link\">Daftar Tamu</router-link>\n                    </li>\n                    <li class=\"nav-item\">\n                        <router-link to=\"dashboard\" class=\"nav-link\">Dashboard</router-link>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a href=\"https://ptsp.kemenagpessel.com\" class=\"nav-link\">Pelayanan Publik</a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a href=\"https://ppid.kemenagpessel.com\" class=\"nav-link\">Pelayanan Informasi</a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a href=\"https://datuak.kemenagpessel.com\" class=\"nav-link\">Satu Data</a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a href=\"#\" class=\"nav-link\">Kontak</a>\n                    </li>\n\n                    <li v-if=\"!currentUser\" class=\"nav-item\">\n                        <router-link to=\"login\" class=\"nav-link\">Login</router-link>\n                    </li>\n\n                    <li v-if=\"currentUser\" class=\"nav-item\">\n                        <a @click.prevent=\"logOut\" class=\"nav-link\">\n                            <p>Logout</p>\n                        </a>\n                    </li> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <li class=\"nav-item\">\r\n                        <router-link to=\"daftar-tamu\" class=\"nav-link\">Daftar Tamu</router-link>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <router-link to=\"dashboard\" class=\"nav-link\">Dashboard</router-link>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a href=\"https://ptsp.kemenagpessel.com\" class=\"nav-link\">Pelayanan Publik</a>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a href=\"https://ppid.kemenagpessel.com\" class=\"nav-link\">Pelayanan Informasi</a>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a href=\"https://datuak.kemenagpessel.com\" class=\"nav-link\">Satu Data</a>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a href=\"#\" class=\"nav-link\">Kontak</a>\r\n                    </li>\r\n\r\n                    <li v-if=\"!currentUser\" class=\"nav-item\">\r\n                        <router-link to=\"login\" class=\"nav-link\">Login</router-link>\r\n                    </li>\r\n\r\n                    <li v-if=\"currentUser\" class=\"nav-item\">\r\n                        <a @click.prevent=\"logOut\" class=\"nav-link\">\r\n                            <p>Logout</p>\r\n                        </a>\r\n                    </li> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     to: "landing",
     "class": "nav-link"
   }, {
@@ -208,7 +212,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n/* .content-wrapper {\n    margin-left: 0 !important;\n}\n\n.main-footer {\n    margin-left: 0 !important;\n}\n\n.main-header {\n    margin-left: 0 !important;\n} */\n.main-header[data-v-7c62b210] {\n    --bs-navbar-padding-x: 1rem !important;\n}\n.router-link-exact-active[data-v-7c62b210] {\n    background-color: #f8fafc !important;\n    color: rgba(0, 0, 0, 0.5) !important;\n    font-weight: bold;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\r\n/* .content-wrapper {\r\n    margin-left: 0 !important;\r\n}\r\n\r\n.main-footer {\r\n    margin-left: 0 !important;\r\n}\r\n\r\n.main-header {\r\n    margin-left: 0 !important;\r\n} */\n.main-header[data-v-7c62b210] {\r\n    --bs-navbar-padding-x: 1rem !important;\n}\n.router-link-exact-active[data-v-7c62b210] {\r\n    background-color: #f8fafc !important;\r\n    color: rgba(0, 0, 0, 0.5) !important;\r\n    font-weight: bold;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -610,7 +614,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Landing_vue_vue_type_template_id_7c62b210_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Landing.vue?vue&type=template&id=7c62b210&scoped=true */ "./resources/js/containers/Landing.vue?vue&type=template&id=7c62b210&scoped=true");
 /* harmony import */ var _Landing_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Landing.vue?vue&type=script&lang=js */ "./resources/js/containers/Landing.vue?vue&type=script&lang=js");
 /* harmony import */ var _Landing_vue_vue_type_style_index_0_id_7c62b210_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Landing.vue?vue&type=style&index=0&id=7c62b210&scoped=true&lang=css */ "./resources/js/containers/Landing.vue?vue&type=style&index=0&id=7c62b210&scoped=true&lang=css");
-/* harmony import */ var _Users_yudapramana_Sites_agenda_kemenagpessel_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_MAMP_htdocs_ea_tps_prydsy_xyz_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -618,7 +622,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_Users_yudapramana_Sites_agenda_kemenagpessel_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Landing_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Landing_vue_vue_type_template_id_7c62b210_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-7c62b210"],['__file',"resources/js/containers/Landing.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_MAMP_htdocs_ea_tps_prydsy_xyz_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Landing_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Landing_vue_vue_type_template_id_7c62b210_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-7c62b210"],['__file',"resources/js/containers/Landing.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -650,7 +654,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Landing_vue_vue_type_template_id_7c62b210_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Landing_vue_vue_type_template_id_7c62b210_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Landing_vue_vue_type_template_id_7c62b210_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Landing.vue?vue&type=template&id=7c62b210&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/containers/Landing.vue?vue&type=template&id=7c62b210&scoped=true");
 

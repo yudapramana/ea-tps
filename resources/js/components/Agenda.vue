@@ -20,20 +20,24 @@
 
 
 
-        <div class="container">
+        <div class="container-fluid m-0 p-0">
             <div class="jumbotron jumbotron-fluid new-font">
                 <div class="mx-5">
-                    <h1 class="display-4">SI-APDI KEMENAG</h1>
+                    <h1 class="display-4">E-Agenda</h1>
                     <h2>
                         Sistem Informasi Agenda Pimpinan Digital
-                        <h3>Kementerian Agama Kabupaten Pesisir Selatan</h3>
+                        <h3>SMA Negeri 3 PAINAN</h3>
                     </h2>
                     <p class="lead">
-                        <router-link to="kontak" class="btn btn-primary btn-lg btn-sm" role="button">Pelajari Lebih
+                        <router-link to="tentang" class="btn btn-primary btn-lg btn-sm" role="button">Pelajari Lebih
                             Lanjut</router-link>
                     </p>
                 </div>
             </div>
+
+        </div>
+
+        <div class="container">
 
 
 
@@ -43,7 +47,7 @@
 
                     <div class="text-center new-font">
                         <h2>
-                            Agenda Pimpinan KanKemenag Kabupaten Pesisir Selatan
+                            Agenda Pimpinan Kepala Sekolah SMA N 3 Painan
                         </h2>
                     </div>
                 </div>
