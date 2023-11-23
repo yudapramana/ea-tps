@@ -2,7 +2,7 @@
     <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
         <div class="container">
             <a href="/landing" class="navbar-brand">
-                <img src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1700714008/PandanViewMandeh/logo_sma3painan_taiudv.png"
+                <img src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700714219/PandanViewMandeh/logo_sma3painanopacity_j4yyfh.png"
                     alt="AdminLTE Logo" class="brand-image" style="opacity: .8">
                 <span class="brand-text font-weight-light">E - Agenda Pimpinan</span>
             </a>
