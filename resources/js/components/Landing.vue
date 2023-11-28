@@ -59,7 +59,7 @@
                 <div class="col-lg-6">
                     <div class="card bg-light d-flex flex-fill">
                         <div class="card-header text-muted border-bottom-0 header-custom new-font">
-                            Pimpinan Kementerian Agama Kab. Pesisir Selatan
+                            Pimpinan SMA Negeri 3 Painan
                         </div>
                         <div class="card-body pt-0 new-font">
                             <div class="row">
