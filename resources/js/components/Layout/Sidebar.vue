@@ -47,7 +47,7 @@
                         </router-link>
                     </li>
 
-                    <li class="nav-header">USER & ROLES</li>
+                    <!-- <li class="nav-header">USER & ROLES</li>
 
                     <li class="nav-item">
                         <router-link to="data-user" class="nav-link">
@@ -66,7 +66,7 @@
                             <i class="fas fa-users-line nav-icon"></i>
                             <p>User Role</p>
                         </router-link>
-                    </li>
+                    </li> -->
 
                     <li class="nav-header">MANAGE</li>
 
