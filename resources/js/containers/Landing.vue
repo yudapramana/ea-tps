@@ -118,10 +118,10 @@
     <footer class="main-footer">
 
         <div class="float-right d-none d-sm-inline">
-            E-Agenda Pimpinan KMGPESSSEL
+            E-AGENDA SMAN 3 PAINAN
         </div>
 
-        <strong>Copyright &copy; 2023 <a href="https://adminlte.io">Developed By Yuda Pramana</a>.</strong> All rights
+        <strong>Copyright &copy; 2023 <a href="https://adminlte.io">BCR Consultant</a>.</strong> All rights
         reserved.
     </footer>
 </template>
