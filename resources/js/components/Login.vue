@@ -72,7 +72,7 @@ export default {
     created() {
         this.$Progress.start();
         if (this.loggedIn) {
-            this.$router.push("/profile");
+            this.$router.push("/schedule");
         }
     },
     mounted() {
@@ -85,7 +85,7 @@ export default {
 
             this.$store.dispatch("auth/login", user).then(
                 () => {
-                    this.$router.push("/profile");
+                    this.$router.push("/schedule");
                 },
                 (error) => {
                     this.loading = false;
